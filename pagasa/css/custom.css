@@ -1,0 +1,189 @@
+/*------------------------------------------------------------------
+
+[Custom Stylesheet]
+
+
+Last change:	03/25/2013
+Assigned to:	You
+
+-------------------------------------------------------------------*/
+/*BODY*/
+body {
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 10px;
+	color: #333333;
+	background-color: #002A2A;
+	font-weight:normal;
+}
+
+
+/* TABLES */
+ .table{
+	 font-size:11px;
+	 line-height:14px;
+ }
+ 
+ .table tr{
+	 height:50%;
+ }
+ .table td{
+	 line-height:20px;;
+ }
+ tr .odd{
+	 #FFF;
+ }
+ tr .even{
+	 #EEE;
+ }
+
+ 
+ .table.table-bordered tbody tr td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/*NAV BARS*/
+.navbar.navbar-inverse .navbar-inner .container .nav-collapse.collapse .blck .active a{
+	color: #FFF;
+	background-color: #063;
+}
+.navbar.navbar-inverse .navbar-inner .container .nav-collapse.collapse .blck a{
+	color: #000;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-menu:hover > a {
+  color: #ffffff;
+  background-color: #060;
+  background: #060;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.subnavbar{
+	width:1000px;
+	margin:0 auto;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	
+}
+.subnavbar-inner{
+	border-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+.navbar .brand {
+	font-weight:normal;
+
+}
+
+
+/* TABS */
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  background-color:#FFF;
+}
+
+.widget .widget-header DISABLE {
+    background: #d0e292;
+background: -moz-linear-gradient(top,  #d0e292 0%, #8fc062 20%, #39892f 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0e292), color-stop(20%,#8fc062), color-stop(100%,#39892f));
+background: -webkit-linear-gradient(top,  #d0e292 0%,#8fc062 20%,#39892f 100%);
+background: -o-linear-gradient(top,  #d0e292 0%,#8fc062 20%,#39892f 100%);
+background: -ms-linear-gradient(top,  #d0e292 0%,#8fc062 20%,#39892f 100%);
+background: linear-gradient(to bottom,  #d0e292 0%,#8fc062 20%,#39892f 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e292', endColorstr='#39892f',GradientType=0 );
+}
+
+/* EXTRAS */
+#overlay{
+  background: url(../img/loaders/whole-circle.GIF) no-repeat center center;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  z-index: 1000;
+  left: 45%;
+  top: 45%;
+  margin: -0px 0 0 -0px;
+}
+
+
+
+#small-head{
+	visibility:hidden;
+	margin:0;
+	position:absolute;
+}
+
+
+.shortcuts .shortcut-label {
+  display: block;
+  font-size:12px;
+  font-weight: 100;
+  color: #666;
+}
+
+.shortcuts .shortcut {
+  width: 120px;
+  display: inline-block;
+  padding: 10px 5;
+  margin: 0 5px 1em;
+  vertical-align: top;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.shortcuts .shortcut .shortcut-icon {
+  width: 100%;
+  margin-top: .40em;
+  margin-bottom: .20em;
+  font-size: 40px;
+  color: #555;
+}
+
+.carousel-control {
+	border:0;
+  background:none;
+  opacity: 1.0;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  background-color: #060;
+  background: #060;
+}
+
+/*==========form margins=====*/
+.form-horizontal .control-group {
+  margin-bottom: 5px;
+  
+}
+
+.form-horizontal .controls {
+  margin-left: 180px;
+}
+
+
+span.error {
+    margin-left: 6px;
+    height:17px;
+    background: url('http://i45.tinypic.com/f9ifz6.png') no-repeat left center;
+}
+label.error {
+    height:17px;
+    border-top:1px solid #99182c;
+    border-right:1px solid #99182c;
+    border-bottom:1px solid #99182c;
+    margin-left:9px;
+    padding:1px 5px 0px 5px;
+    font-size:small;
+}

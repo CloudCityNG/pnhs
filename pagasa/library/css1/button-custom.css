@@ -1,0 +1,75 @@
+/* CSS Document */
+
+.btn-master.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-master {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #cc44cc;
+  background-image: -moz-linear-gradient(top, #cc88cc, #2244cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cc88cc), to(#2244cc));
+  background-image: -webkit-linear-gradient(top, #cc88cc, #2244cc);
+  background-image: -o-linear-gradient(top, #cc88cc, #2244cc);
+  background-image: linear-gradient(to bottom, #cc88dd, #6633cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-master:hover,
+.btn-master:focus,
+.btn-master:active,
+.btn-master.active,
+.btn-master.disabled,
+.btn-master[disabled] {
+  color: #ffffff;
+  background-color: #6633cc;
+  *background-color: #003bb3;
+}
+
+.btn-master:active,
+.btn-master.active {
+  background-color: #003399 \9;
+}
+
+
+
+
+
+.btn-orange{
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #F63;
+  *background-color: #cc44cc;
+  background-image: -moz-linear-gradient(top, #cc88cc, #2244cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cc88cc), to(#2244cc));
+  background-image: -webkit-linear-gradient(top, #cc88cc, #2244cc);
+  background-image: -o-linear-gradient(top, #cc88cc, #2244cc);
+  background-image: linear-gradient(to bottom, #FCAA58, #F63);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.btn-orange.disabled,
+.btn-orange[disabled] {
+  color: #ffffff;
+  background-color: #F63;
+  *background-color: #003bb3;
+}
+
+.btn-orange:active,
+.btn-orange.active {
+  background-color: #003399 \9;
+}

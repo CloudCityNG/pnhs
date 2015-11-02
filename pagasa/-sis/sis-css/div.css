@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#divhome div {
+	background-color:#CFFFB9;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	alignment-adjust:middle;
+	box-shadow:#999;
+}
+#divhome div a href button{
+	background-color:#82FB88
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+}

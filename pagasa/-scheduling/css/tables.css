@@ -1,0 +1,105 @@
+/* CSS Document */
+/*Use for table designs*/
+
+
+table > thead > tr > th{
+    /*background-color:#446C99;*/
+	
+}
+
+* table{
+	border-color:#FFF;
+}
+
+.timetable{
+    border-radius:20px;
+	font-size:9px; 
+	line-height:10px;	
+}
+
+.timetable_header{
+    font-size:11px; 
+	line-height:12px; 
+	border-left:1px solid white;	
+}
+
+.timetable th{
+	border-left:1px solid white;
+	border-bottom:1px solid white;
+}
+
+.timetable th.loaded{
+	/*background-color:#FFF;*/
+	border-bottom:none;
+    	
+}
+
+.timetable th.restricted{
+	background-color:#D8D8D8;
+	text-align:center;
+	border-bottom:none;
+}
+.timetable .end{
+    border-bottom:1px solid white;	
+}
+/*CELL COLOR*/
+
+.color1{
+	background-color:#C6D9F0;/*#C4BD97;/*#938953;	*/
+}
+
+.color2{
+	background-color:#DBE5F1;/*#8DB3E2;/*#548DD4;*/	
+}
+.color3{
+	background-color:#F2DCDB;/*#B8CCE4;/*#9583D7;	*/
+}
+.color4{
+	background-color:#EBF1DD;/*#E5B987;/*#D99694;*/
+}
+.color5{
+	background-color:#E5E0EC;/*#D7E3BC;/*#C3D698;*/
+}
+.color6{
+	background-color:#DBEEF3;/*#CCC1D9;/*#82A2C7;*/
+}
+.color7{
+	background-color:#FDEADA;/*#87DDE8;/*#92CDDC;*/
+}
+.color8{
+	background-color:/*#FBD5B5;/*#FAC08F;*/
+}
+.color9{
+	background-color:#BFBFBF;	
+}
+.color10{
+	background-color:#FC6;	
+}
+.color11{
+	background-color:#1F4970;	
+}
+
+.color12{
+	background-color:#4F8180;	
+}
+.color13{
+	background-color:#c05040;	
+}
+.color14{
+	background-color:#9EB859;	
+}
+.color15{
+	background-color:#8064A2;	
+}
+.color16{
+	background-color:#48ACC6;	
+}
+.color17{
+	background-color:#F79646;	
+}
+.color18{
+	background-color:#966;	
+}
+.color19{
+	background-color:#B59FD9;	
+}

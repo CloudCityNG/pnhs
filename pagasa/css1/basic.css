@@ -1,0 +1,49 @@
+/* CSS Document */
+
+html{
+	
+	background-image:url(../images/background-login.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-color:#006666;
+}
+
+#header {
+	margin:20px 0;
+	width: auto;
+	height: 100px;
+	position: relative;
+	/*background-image:url(../images/banner.jpg);*/
+	border-bottom: 0px solid #0000000;
+}
+
+#container{
+	border:0px solid white;
+	margin-bottom:40px;
+}
+#content{
+    /*top:-310px;*/
+}
+#box{
+	border:0px solid white;
+    position:absolute;
+	left:200px;
+}
+
+
+
+#submit-div{
+    padding-top:7px;	
+}
+.center{
+	margin-top:10px;
+	margin:0 auto;
+	
+}
+
+.rounded{
+	border-radius:.5in;
+}
+.glow{
+	box-shadow:0 0 20px 5px #D3F3FA;
+}

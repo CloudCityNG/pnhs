@@ -1,0 +1,12 @@
+/* CSS Document */
+/*Use for table designs*/
+
+
+table > thead > tr > th{
+    background-color:#446C99;
+	
+}
+
+* table{
+	border-color:#FFF;
+}

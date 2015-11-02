@@ -1,0 +1,2 @@
+ErrorDocument 404 /projects/pagasa/404page.php
+RewriteOptions inherit

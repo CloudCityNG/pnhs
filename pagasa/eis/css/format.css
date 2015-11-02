@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+background:url('#');
+}
+
+#style {
+width: auto;
+}
+
+#header {
+width: auto;
+height: 100px;
+position: relative;
+background-image: url(../images/green.jpg);
+border-bottom: 2px solid #0000000;
+}
+
+#body {
+margin: auto;
+width: auto;
+height: 495px;
+padding: 5px 0px 0px 5px;
+}
+
+#leftrow {
+float: left;
+width: auto;
+height: auto;
+border-right: 5px solid #58ebd3;
+}
+
+#footer {
+clear: both;
+width: auto;
+text-align: center;
+color: #FFFFFF;
+background-color: #004F00;
+}

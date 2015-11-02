@@ -1,0 +1,227 @@
+
+/* -------------------- basic html tags -------------------- */
+
+body {
+	font: 12px/1.5 "lucida sans unicode", "lucida grande", sans-serif;
+	color: #444444;
+/*	background-color: #182630;
+	background: url(../images/bg.jpg) no-repeat;*/
+	}
+
+a:focus {
+	outline: 1px dotted invert;
+	}
+
+hr {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	height: 0;
+	}
+
+
+h1 {
+	font-size: 30px;
+	letter-spacing: -1.5px;
+	}
+
+h2 {
+	font-size: 24px;
+	letter-spacing: -1px;
+	}
+
+h3 {
+	font-size: 18px;
+	}
+
+h4 {
+	font-size: 14px;
+	}
+
+h5 {
+	font-size: 12px;
+	}
+
+h6 {
+	font-size: 10px;
+	}
+
+ol {
+	list-style: decimal;
+	list-style-position: inside;
+}
+
+ul.bullets {
+	list-style: disc;
+	list-style-position: inside;
+	}
+
+ul.bullets li {
+	margin-left: 20px;
+	margin-bottom: 5px;
+	}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 15px;
+	}
+
+a, 
+a:visited { 
+	color:#0063be; text-decoration: none; 
+	}
+
+a:hover, a:active { 
+	text-decoration: underline; 
+	}
+
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited, h5 a, h5 a:visited, h6 a, h6 a:visited { 
+	color: #444444; 
+	}
+
+h1 a:hover, h1 a:active, h2 a:hover, h2 a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active, h5 a:hover, h5 a:active, h6 a:hover, h6 a:active { 
+	color:#0063be; 
+	}
+
+/* --------------------  custom general classes -------------------- */
+
+.align-left    { text-align: left; }
+	
+.align-right   { text-align: right; }
+	
+.align-center  { text-align: center; }
+	
+.align-justify { text-align: justify; }
+	
+.float-left    { float: left; }
+	
+.float-right   { float: right; }
+
+.bottom-spacing { margin-bottom: 20px; }
+
+/* -------------------- box module -------------------- */
+
+div.module { 
+	background: url(../images/module-body-left-bg.gif) no-repeat scroll bottom left; 
+	float: left; 
+	width: 100%; 
+	margin-bottom: 20px; 
+	}
+
+div.module div.module-body { 
+	background: url(../images/module-body-right-bg.gif) no-repeat scroll bottom right; 
+	padding: 20px 3% 20px 3%; float: left; width: 94%;
+	}
+
+/* percentage padding in the module dependant on the cell width */
+.grid_1 div.module div.module-body  { padding: 20px 8% 20px 8%; float: left; width: 84%; }
+.grid_2 div.module div.module-body  { padding: 20px 7% 20px 7%; float: left; width: 86%; }
+.grid_3 div.module div.module-body  { padding: 20px 6% 20px 6%; float: left; width: 88%; }
+.grid_4 div.module div.module-body  { padding: 20px 5% 20px 5%; float: left; width: 90%; }
+.grid_5 div.module div.module-body  { padding: 20px 4% 20px 4%; float: left; width: 92%; }
+.grid_6 div.module div.module-body  { padding: 20px 3% 20px 3%; float: left; width: 94%; }
+.grid_7 div.module div.module-body  { padding: 20px 2.75% 20px  2.75%; float: left; width: 94.5%; }
+.grid_8 div.module div.module-body  { padding: 20px 2.5% 20px 2.5%; float: left; width: 95%; }
+.grid_9 div.module div.module-body  { padding: 20px 2.25% 20px 2.25%; float: left; width: 95.5%; }
+.grid_10 div.module div.module-body { padding: 20px 2% 20px 2%; float: left; width: 96%; }
+.grid_11 div.module div.module-body { padding: 20px 1.75% 20px 1.75%; float: left; width: 96.5%; }
+.grid_12 div.module div.module-body { padding: 20px 1.5% 20px 1.5%; float: left; width: 97%; }
+
+
+	
+div.module div.module-table-body { 
+	background: url(../images/module-body-right-bg.gif) no-repeat scroll bottom right; 
+	padding: 0; 
+	float: left; 
+	width: 100%; 
+	}
+
+div.module h2 { 
+    /* sliding right image */
+    background: url(../images/module-header-left-bg.gif) no-repeat scroll top left; 
+	display: block;
+	float: left;
+	height: 32px; /* change this value according to image height */
+	margin-right: 0px;
+	padding-right: 0px; /* chenge this value according to right image width */
+	/* font properties */
+	text-decoration: none;
+	color: #444444;
+	font-family: arial, helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	width: 100%;
+	margin-bottom: 0;
+	letter-spacing: normal
+	}
+
+div.module h2 span { 
+	/* background left image */ 
+	background: url(../images/module-header-right-bg.gif) no-repeat top right; 
+	display: block;
+	line-height: 20px; /* change this value according to buttong height */
+	padding: 7px 0 5px 18px;
+
+	}
+
+div.module table {
+	width: 100%; 
+	margin: 0 0 10px 0;
+	border-left: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	}
+
+div.module table.tr {
+	border-collapse: separate;
+	border-right: 1px solid #aaaaaa;
+	border-left: 1px solid #aaaaaa;
+	}
+
+div.module table th {
+	background-color: #eeeeee;
+	color: #444444;
+	padding: 5px;
+	text-align: left;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	}
+	
+div.module table td {
+	background-color: #ffffff;
+	padding: 5px;;
+	border-right: 1px solid #d9d9d9;
+	}
+
+div.module table tr.odd td { /* you can use this style if you want to do zebra-colored tables with other technique than table sorter script used here */
+	background-color: #f1f5fa;
+	}
+	
+.table-apply {
+	width: 40%; float: right; text-align: right; margin-right: 10px;
+	}
+	
+/* -------------------- Pager -------------------- */
+.pager {
+	display: block; padding: 0px 10px 10px 10px;  width: 40%; float: left; 
+	}
+
+.pager .first,
+.pager .prev,
+.pager .next,
+.pager .last {
+	margin-bottom: -2px;
+	}
